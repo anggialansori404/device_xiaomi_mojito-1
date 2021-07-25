@@ -7,7 +7,7 @@ type vendor_sysfs_fps_attr, sysfs_type, fs_type;
 
 type thermal_data_file, file_type, data_file_type;
 
-type proc_last_kmsg, fs_type, proc_type;
+#type proc_last_kmsg, fs_type, proc_type;
 
 type adsprpcd_file, file_type;
 type bt_firmware_file, file_type;
