@@ -27,5 +27,6 @@
     <!-- Radius of the software rounded corners at the bottom of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
     <dimen name="rounded_corner_radius_bottom">90.0px</dimen>
-
+    <!-- Trying fix gey qs dimens with this value. please god fix this pleaseee -->
+    <dimen name="quick_qs_offset_height">110.0dip</dimen>
 </resources>
