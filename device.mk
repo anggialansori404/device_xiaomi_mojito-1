@@ -19,9 +19,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
 
-# ANXCamera v185R
-$(call inherit-product, vendor/xiaomi/ANXCamera/config.mk)
-
 # API
 PRODUCT_TARGET_VNDK_VERSION := 30
 PRODUCT_SHIPPING_API_LEVEL := 30
