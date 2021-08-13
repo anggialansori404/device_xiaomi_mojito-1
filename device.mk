@@ -186,6 +186,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# Rootdir
+PRODUCT_PACKAGES +=\
+    init.performance_level.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
