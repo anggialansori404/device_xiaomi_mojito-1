@@ -16,7 +16,9 @@ TARGET_USES_AOSP_RECOVERY := true
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_PIXEL_CHARGING := true
 TARGET_USES_BLUR := true
-#USE_GAPPS ?= true
+USE_GAPPS ?= true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
 NAD_BUILD_TYPE := OFFICIAL
 
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
